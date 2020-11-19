@@ -1,38 +1,33 @@
 module.exports = [
   {
-    id: 0,
+    id: 1,
     title: 'How do I see more Level/Roles/...?',
     desc: 'Simply page through it! Add a number at the end of the command, f.e. `ar!i level 2` or `ar!faq 2`.',
   },
   {
-    id: 1,
+    id: 2,
     title: 'What is the prefix of my bot?',
     desc: 'The default prefix is `ar!` - Ping/Mention the bot to get your prefix (@ActivityRank)',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Why do my commands not get recognized?',
     desc: 'Either you are using the wrong prefix oder you are trying to type the commands with `( )`, `[ ]` or `{ }` *yeah, do NOT use placeholders...*',
   },
   {
-    id: 3,
+    id: 4,
     title: 'What are tokens and how do I get/earn them?',
     desc: 'Tokens are currently used to double your votepower (ar!m @user up) and fuel Servers to activate the premium status for a removal of the “please power the server” message and a shorter stats cooldown. More Information on the website link below.\nYou receive tokens by upvoting the bot on top.gg (https://top.gg/bot/534589798267224065)\nYou can buy tokens on our website (https://activityrank.me/tokens)',
   },
   {
-    id: 4,
+    id: 5,
     title: 'I have set roleassignments but why can the bot not assign them on my server?',
     desc: '1. Go to your Discord user settings and then Appearance\n2. Enable Developer Mode\n3. Go to the role, channel or user you wish to find the ID of\n4. Right click on it and copy ID',
   },
   {
-    id: 5,
+    id: 6,
     title: 'My Bot doesn’t respond to commands or is offline?',
     desc: '-> Check the right side of discord to see if the bot is online (if not it may be a restart)\n-> Try pinging/mentioning the bot @ActivityRank\n-> Make sure the bot has got all needed role permissions on the server.\n-> Make sure the bot has got all needed Role permissions within the channel settings.\n-> Check if you have set noCommands or CommandOnly channel.\n\nYou can only have one CommandOnly channel. All others get ignored, except you got MANAGE_SERVER permissions. If you want to allow multiple commandOnly channel, you need to set every other channel as noCommand Channel.',
-  },
-  {
-    id: 6,
-    title: 'Why does the bot not show all the roles or no-xp channels in its tables?',
-    desc: 'If you have many roles or no-xp channels you will notice that commands like ar!info roles doesn\'t show all that you set. That is because there is more that one page, you will need to do ar!info roles 2 for watch the page number 2.',
   },
   {
     id: 7,
